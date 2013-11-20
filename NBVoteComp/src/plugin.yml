@@ -1,0 +1,11 @@
+name: NB Vote Competition
+main: Teken.VoteComp.main
+version: 1.0
+depends: [Votifier]
+commands:
+    voc:
+        description: Set vote competitions
+        usage: /voc <Amount of People> <Block> <Number of Blocks>
+    votecomp:
+        description: Set vote competitions
+        usage: /votecomp <Amount of People> <Block> <Number of Blocks>
